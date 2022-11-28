@@ -13,6 +13,14 @@
 		611637822934C744000B2443 /* ChooseAnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637812934C744000B2443 /* ChooseAnimalView.swift */; };
 		611637862934C75C000B2443 /* ChooseAnimalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637852934C75C000B2443 /* ChooseAnimalViewModel.swift */; };
 		611637882934C783000B2443 /* ChooseAnimalModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637872934C783000B2443 /* ChooseAnimalModule.swift */; };
+		6116378B2934CA09000B2443 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 6116378A2934CA09000B2443 /* Networking */; };
+		6116378D2934CA62000B2443 /* ServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6116378C2934CA62000B2443 /* ServerRequest.swift */; };
+		6116378F2934CA6F000B2443 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6116378E2934CA6F000B2443 /* HTTPRequest.swift */; };
+		611637912934CA7B000B2443 /* URLPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637902934CA7A000B2443 /* URLPath.swift */; };
+		611637932934CA82000B2443 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637922934CA82000B2443 /* Endpoints.swift */; };
+		611637962934CB34000B2443 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637952934CB34000B2443 /* API.swift */; };
+		6116379A2934DD48000B2443 /* InputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637992934DD48000B2443 /* InputModel.swift */; };
+		6116379C2934DD4D000B2443 /* ResponeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6116379B2934DD4D000B2443 /* ResponeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +31,13 @@
 		611637812934C744000B2443 /* ChooseAnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAnimalView.swift; sourceTree = "<group>"; };
 		611637852934C75C000B2443 /* ChooseAnimalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAnimalViewModel.swift; sourceTree = "<group>"; };
 		611637872934C783000B2443 /* ChooseAnimalModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAnimalModule.swift; sourceTree = "<group>"; };
+		6116378C2934CA62000B2443 /* ServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerRequest.swift; sourceTree = "<group>"; };
+		6116378E2934CA6F000B2443 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		611637902934CA7A000B2443 /* URLPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLPath.swift; sourceTree = "<group>"; };
+		611637922934CA82000B2443 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		611637952934CB34000B2443 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		611637992934DD48000B2443 /* InputModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputModel.swift; sourceTree = "<group>"; };
+		6116379B2934DD4D000B2443 /* ResponeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6116378B2934CA09000B2443 /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				611637732934B9FE000B2443 /* Puppy_ChallengeApp.swift */,
+				611637942934CA91000B2443 /* Network */,
 				611637842934C74D000B2443 /* ChooseAnimal */,
 				611637772934B9FF000B2443 /* Assets.xcassets */,
 				611637792934B9FF000B2443 /* Preview Content */,
+				6116379D2934DD6A000B2443 /* Models */,
 			);
 			path = "Puppy-Challenge";
 			sourceTree = "<group>";
@@ -81,6 +99,27 @@
 			path = ChooseAnimal;
 			sourceTree = "<group>";
 		};
+		611637942934CA91000B2443 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6116378C2934CA62000B2443 /* ServerRequest.swift */,
+				611637952934CB34000B2443 /* API.swift */,
+				6116378E2934CA6F000B2443 /* HTTPRequest.swift */,
+				611637902934CA7A000B2443 /* URLPath.swift */,
+				611637922934CA82000B2443 /* Endpoints.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6116379D2934DD6A000B2443 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				611637992934DD48000B2443 /* InputModel.swift */,
+				6116379B2934DD4D000B2443 /* ResponeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,6 +136,9 @@
 			dependencies = (
 			);
 			name = "Puppy-Challenge";
+			packageProductDependencies = (
+				6116378A2934CA09000B2443 /* Networking */,
+			);
 			productName = "Puppy-Challenge";
 			productReference = 611637702934B9FE000B2443 /* Puppy-Challenge.app */;
 			productType = "com.apple.product-type.application";
@@ -125,6 +167,9 @@
 				Base,
 			);
 			mainGroup = 611637672934B9FE000B2443;
+			packageReferences = (
+				611637892934CA09000B2443 /* XCRemoteSwiftPackageReference "Networking" */,
+			);
 			productRefGroup = 611637712934B9FE000B2443 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -153,7 +198,14 @@
 			files = (
 				611637882934C783000B2443 /* ChooseAnimalModule.swift in Sources */,
 				611637862934C75C000B2443 /* ChooseAnimalViewModel.swift in Sources */,
+				611637912934CA7B000B2443 /* URLPath.swift in Sources */,
+				6116378D2934CA62000B2443 /* ServerRequest.swift in Sources */,
+				6116379A2934DD48000B2443 /* InputModel.swift in Sources */,
+				6116378F2934CA6F000B2443 /* HTTPRequest.swift in Sources */,
+				6116379C2934DD4D000B2443 /* ResponeModel.swift in Sources */,
 				611637822934C744000B2443 /* ChooseAnimalView.swift in Sources */,
+				611637932934CA82000B2443 /* Endpoints.swift in Sources */,
+				611637962934CB34000B2443 /* API.swift in Sources */,
 				611637742934B9FE000B2443 /* Puppy_ChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +407,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		611637892934CA09000B2443 /* XCRemoteSwiftPackageReference "Networking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sadeghgoo/Networking.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6116378A2934CA09000B2443 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 611637892934CA09000B2443 /* XCRemoteSwiftPackageReference "Networking" */;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 611637682934B9FE000B2443 /* Project object */;
 }

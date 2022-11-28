@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "78424be314842833c04bc3bef5b72e85fff99204"
+      }
+    },
+    {
+      "identity" : "networking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sadeghgoo/Networking.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "13e58b19a5d3c0dfc2c1b42a415de0307b6ac5b8"
+      }
+    }
+  ],
+  "version" : 2
+}
