@@ -12,7 +12,6 @@
 		6116377B2934B9FF000B2443 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6116377A2934B9FF000B2443 /* Preview Assets.xcassets */; };
 		611637822934C744000B2443 /* ChooseAnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637812934C744000B2443 /* ChooseAnimalView.swift */; };
 		611637862934C75C000B2443 /* ChooseAnimalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637852934C75C000B2443 /* ChooseAnimalViewModel.swift */; };
-		611637882934C783000B2443 /* ChooseAnimalModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637872934C783000B2443 /* ChooseAnimalModule.swift */; };
 		6116378B2934CA09000B2443 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 6116378A2934CA09000B2443 /* Networking */; };
 		6116378D2934CA62000B2443 /* ServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6116378C2934CA62000B2443 /* ServerRequest.swift */; };
 		6116378F2934CA6F000B2443 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6116378E2934CA6F000B2443 /* HTTPRequest.swift */; };
@@ -21,6 +20,15 @@
 		611637962934CB34000B2443 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637952934CB34000B2443 /* API.swift */; };
 		6116379A2934DD48000B2443 /* InputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637992934DD48000B2443 /* InputModel.swift */; };
 		6116379C2934DD4D000B2443 /* ResponeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6116379B2934DD4D000B2443 /* ResponeModel.swift */; };
+		6116379F2934E2F3000B2443 /* ChooseServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6116379E2934E2F3000B2443 /* ChooseServicesView.swift */; };
+		611637A12934E2FA000B2443 /* ChooseServicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637A02934E2FA000B2443 /* ChooseServicesViewModel.swift */; };
+		611637A72934FF95000B2443 /* ChooseNumberOfNightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637A62934FF95000B2443 /* ChooseNumberOfNightsView.swift */; };
+		611637A92934FF9F000B2443 /* ChooseNumberOfNightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637A82934FF9F000B2443 /* ChooseNumberOfNightsViewModel.swift */; };
+		611637AE293521EF000B2443 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637AD293521EF000B2443 /* Animal.swift */; };
+		611637CA293553B6000B2443 /* AnimalEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637C9293553B6000B2443 /* AnimalEnvironmentObject.swift */; };
+		611637CC29363D7B000B2443 /* CalculatePriceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637CB29363D7B000B2443 /* CalculatePriceRepository.swift */; };
+		611637CE2936453E000B2443 /* VisualPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637CD2936453E000B2443 /* VisualPicker.swift */; };
+		611637D129364568000B2443 /* DaysHotelPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611637D029364568000B2443 /* DaysHotelPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +38,6 @@
 		6116377A2934B9FF000B2443 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		611637812934C744000B2443 /* ChooseAnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAnimalView.swift; sourceTree = "<group>"; };
 		611637852934C75C000B2443 /* ChooseAnimalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAnimalViewModel.swift; sourceTree = "<group>"; };
-		611637872934C783000B2443 /* ChooseAnimalModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAnimalModule.swift; sourceTree = "<group>"; };
 		6116378C2934CA62000B2443 /* ServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerRequest.swift; sourceTree = "<group>"; };
 		6116378E2934CA6F000B2443 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
 		611637902934CA7A000B2443 /* URLPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLPath.swift; sourceTree = "<group>"; };
@@ -38,6 +45,15 @@
 		611637952934CB34000B2443 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		611637992934DD48000B2443 /* InputModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputModel.swift; sourceTree = "<group>"; };
 		6116379B2934DD4D000B2443 /* ResponeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponeModel.swift; sourceTree = "<group>"; };
+		6116379E2934E2F3000B2443 /* ChooseServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseServicesView.swift; sourceTree = "<group>"; };
+		611637A02934E2FA000B2443 /* ChooseServicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseServicesViewModel.swift; sourceTree = "<group>"; };
+		611637A62934FF95000B2443 /* ChooseNumberOfNightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseNumberOfNightsView.swift; sourceTree = "<group>"; };
+		611637A82934FF9F000B2443 /* ChooseNumberOfNightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseNumberOfNightsViewModel.swift; sourceTree = "<group>"; };
+		611637AD293521EF000B2443 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		611637C9293553B6000B2443 /* AnimalEnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalEnvironmentObject.swift; sourceTree = "<group>"; };
+		611637CB29363D7B000B2443 /* CalculatePriceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatePriceRepository.swift; sourceTree = "<group>"; };
+		611637CD2936453E000B2443 /* VisualPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualPicker.swift; sourceTree = "<group>"; };
+		611637D029364568000B2443 /* DaysHotelPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysHotelPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +88,13 @@
 			isa = PBXGroup;
 			children = (
 				611637732934B9FE000B2443 /* Puppy_ChallengeApp.swift */,
+				611637D22936464A000B2443 /* Price Calculator */,
+				611637CF2936455B000B2443 /* UIComponents */,
 				611637942934CA91000B2443 /* Network */,
-				611637842934C74D000B2443 /* ChooseAnimal */,
+				6116379D2934DD6A000B2443 /* Models */,
+				611637A52934E308000B2443 /* Modules */,
 				611637772934B9FF000B2443 /* Assets.xcassets */,
 				611637792934B9FF000B2443 /* Preview Content */,
-				6116379D2934DD6A000B2443 /* Models */,
 			);
 			path = "Puppy-Challenge";
 			sourceTree = "<group>";
@@ -92,7 +110,6 @@
 		611637842934C74D000B2443 /* ChooseAnimal */ = {
 			isa = PBXGroup;
 			children = (
-				611637872934C783000B2443 /* ChooseAnimalModule.swift */,
 				611637812934C744000B2443 /* ChooseAnimalView.swift */,
 				611637852934C75C000B2443 /* ChooseAnimalViewModel.swift */,
 			);
@@ -114,10 +131,57 @@
 		6116379D2934DD6A000B2443 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				611637AD293521EF000B2443 /* Animal.swift */,
+				611637C9293553B6000B2443 /* AnimalEnvironmentObject.swift */,
 				611637992934DD48000B2443 /* InputModel.swift */,
 				6116379B2934DD4D000B2443 /* ResponeModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		611637A42934E301000B2443 /* ChooseServices */ = {
+			isa = PBXGroup;
+			children = (
+				6116379E2934E2F3000B2443 /* ChooseServicesView.swift */,
+				611637A02934E2FA000B2443 /* ChooseServicesViewModel.swift */,
+			);
+			path = ChooseServices;
+			sourceTree = "<group>";
+		};
+		611637A52934E308000B2443 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				611637842934C74D000B2443 /* ChooseAnimal */,
+				611637A42934E301000B2443 /* ChooseServices */,
+				611637AC2934FFB0000B2443 /* ChooseNumberOfNights */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		611637AC2934FFB0000B2443 /* ChooseNumberOfNights */ = {
+			isa = PBXGroup;
+			children = (
+				611637A62934FF95000B2443 /* ChooseNumberOfNightsView.swift */,
+				611637A82934FF9F000B2443 /* ChooseNumberOfNightsViewModel.swift */,
+			);
+			path = ChooseNumberOfNights;
+			sourceTree = "<group>";
+		};
+		611637CF2936455B000B2443 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				611637CD2936453E000B2443 /* VisualPicker.swift */,
+				611637D029364568000B2443 /* DaysHotelPicker.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		611637D22936464A000B2443 /* Price Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				611637CB29363D7B000B2443 /* CalculatePriceRepository.swift */,
+			);
+			path = "Price Calculator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,17 +260,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				611637882934C783000B2443 /* ChooseAnimalModule.swift in Sources */,
+				611637D129364568000B2443 /* DaysHotelPicker.swift in Sources */,
 				611637862934C75C000B2443 /* ChooseAnimalViewModel.swift in Sources */,
+				611637CE2936453E000B2443 /* VisualPicker.swift in Sources */,
 				611637912934CA7B000B2443 /* URLPath.swift in Sources */,
 				6116378D2934CA62000B2443 /* ServerRequest.swift in Sources */,
+				611637A12934E2FA000B2443 /* ChooseServicesViewModel.swift in Sources */,
 				6116379A2934DD48000B2443 /* InputModel.swift in Sources */,
+				611637A92934FF9F000B2443 /* ChooseNumberOfNightsViewModel.swift in Sources */,
+				611637CA293553B6000B2443 /* AnimalEnvironmentObject.swift in Sources */,
 				6116378F2934CA6F000B2443 /* HTTPRequest.swift in Sources */,
 				6116379C2934DD4D000B2443 /* ResponeModel.swift in Sources */,
+				611637A72934FF95000B2443 /* ChooseNumberOfNightsView.swift in Sources */,
 				611637822934C744000B2443 /* ChooseAnimalView.swift in Sources */,
 				611637932934CA82000B2443 /* Endpoints.swift in Sources */,
 				611637962934CB34000B2443 /* API.swift in Sources */,
 				611637742934B9FE000B2443 /* Puppy_ChallengeApp.swift in Sources */,
+				6116379F2934E2F3000B2443 /* ChooseServicesView.swift in Sources */,
+				611637CC29363D7B000B2443 /* CalculatePriceRepository.swift in Sources */,
+				611637AE293521EF000B2443 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

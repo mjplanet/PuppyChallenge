@@ -8,8 +8,8 @@
 import Foundation
 
 struct InputModel: Codable {
-    let dog: AnimalModel
-    let cat: AnimalModel
+    var dog: AnimalModel
+    var cat: AnimalModel
 }
 
 struct AnimalModel: Codable {
@@ -17,8 +17,8 @@ struct AnimalModel: Codable {
 }
 
 struct ServicesModel: Codable {
-    let grooming: Bool
-    let hotel: HotelModel
+    var grooming: Bool
+    var hotel: HotelModel
 }
 
 struct HotelModel: Codable {

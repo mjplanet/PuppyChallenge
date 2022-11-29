@@ -11,7 +11,11 @@ import SwiftUI
 struct Puppy_ChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ChooseAnimalModule().buildView()
+            let animalObject = AnimalEnvironmentObject()
+            let api = API.PriceAPI()
+            let priceCalculator = CalculatePriceImp(api: api)
+            let viewModel = ChooseAnimalView.ViewModel(animalObject: animalObject, priceCalculator: priceCalculator)
+            ChooseAnimalView(viewModel: viewModel)
         }
     }
 }
